@@ -39,3 +39,26 @@ if (!isNaN(children)) {
 } else {
   console.log('Please enter number of children');
 }
+
+//checking for empty array
+const posts = [];
+
+if (posts.length > 0) {
+  console.log('List posts');
+} else {
+  console.log('No posts');
+}
+
+//checking for empty object
+const user = {};
+
+if (Object.keys(user).length > 0) {
+  console.log('list user');
+} else {
+  console.log('no user');
+}
+
+//Loose equality (==)
+console.log(false === 0);
+console.log('' === 0);
+console.log(null === undefined);
